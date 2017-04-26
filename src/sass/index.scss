@@ -1,3 +1,23 @@
 body {
-    background: red;
+    font-size: 16px;
+}
+
+nav {
+    background: peru;
+    .header {
+        background: white;
+        width: 100px;
+        height: 10px;
+    }
+}
+
+.container {
+    .row {
+        .main-text {
+            background: gray;
+        }
+        .btn-ppal {
+            background: blueviolet;
+        }
+    }
 }
