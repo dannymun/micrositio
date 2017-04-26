@@ -1,23 +1,72 @@
-body {
+body,
+html {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    background-image: url(../images/micro-back.jpg);
 }
 
-nav {
-    background: peru;
-    .header {
-        background: white;
-        width: 100px;
-        height: 10px;
-    }
+#main-container {
+    margin: 60px auto;
 }
 
-.container {
-    .row {
-        .main-text {
-            background: gray;
-        }
-        .btn-ppal {
-            background: blueviolet;
-        }
-    }
+.main-text {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.title,
+.subtitle {
+    margin: 0;
+}
+
+h2.subtitle {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+p {
+    font-weight: 400;
+}
+
+.btn-descarga {
+    width: 70%;
+    height: auto;
+    min-height: 116px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 2.6rem;
+    background-color: #a0bf38;
+    margin-top: 30px;
+}
+
+.btn-dimension {
+    width: 85%;
+    height: auto;
+    min-height: 122px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 2.6rem;
+    background-color: transparent;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.dimension {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.btn-dimension:hover,
+.btn-dimension:active,
+.btn-dimension:focus {
+    background-color: rgba(255, 255, 255, 0.2);
 }
