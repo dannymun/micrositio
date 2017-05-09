@@ -2,7 +2,7 @@ body,
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    background-image: url(../images/micro-back.jpg);
+    background-color: white;
     background-size: cover;
 }
 
@@ -30,7 +30,7 @@ html {
 
 .title {
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 3.5rem;
 }
 
 .title,
@@ -41,7 +41,7 @@ html {
 h2.subtitle {
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 p {
@@ -53,7 +53,7 @@ p {
 
 .title-grupo {
     font-weight: 700;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .title-grupo,
@@ -64,7 +64,7 @@ p {
 h2.subtitle-grupo {
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .text-content-grupo {
@@ -75,10 +75,10 @@ h2.subtitle-grupo {
     width: 70%;
     height: auto;
     min-height: 116px;
-    font-size: 2em;
+    font-size: 2.5rem;
     font-weight: 700;
     text-transform: lowercase;
-    line-height: 1em;
+    line-height: 2.6rem;
     background-color: #a0bf38;
     margin-top: 30px;
 }
@@ -87,10 +87,10 @@ h2.subtitle-grupo {
     width: 85%;
     height: auto;
     min-height: 122px;
-    font-size: 3.2em;
+    font-size: 3.5rem;
     font-weight: 700;
     text-transform: lowercase;
-    line-height: .8em;
+    line-height: 2.6rem;
     background-color: transparent;
     margin-bottom: 30px;
     border: 2px solid white;
@@ -98,7 +98,7 @@ h2.subtitle-grupo {
 }
 
 .dimension {
-    font-size: .6em;
+    font-size: 1.8rem;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -175,4 +175,39 @@ h2.subtitle-grupo {
             display: none;
         }
     }
+}
+
+.dato-relevante {
+    background-image: url(../images/DR1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 5% !important;
+}
+
+.title-datoDes {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.dato-secundario {
+    height: auto;
+    padding: 5% !important;
+    margin-bottom: 10px;
+}
+
+.icon-Sec {
+    font-size: 2em;
+}
+
+.title-datoSec {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.text-datoSec {
+    font-size: .8em;
+    font-weight: 300;
 }
