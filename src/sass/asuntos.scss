@@ -2,7 +2,7 @@ body,
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    background-image: url(../images/micro-back.jpg);
+    background-color: white;
     background-size: cover;
 }
 
@@ -21,7 +21,7 @@ html {
 }
 
 #main-container {
-    margin: 60px auto;
+    margin: 0 auto;
 }
 
 .main-text {
@@ -30,7 +30,7 @@ html {
 
 .title {
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .title,
@@ -75,10 +75,10 @@ h2.subtitle-grupo {
     width: 70%;
     height: auto;
     min-height: 116px;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
     text-transform: lowercase;
-    line-height: 1em;
+    line-height: 2.6em;
     background-color: #a0bf38;
     margin-top: 30px;
 }
@@ -87,10 +87,10 @@ h2.subtitle-grupo {
     width: 85%;
     height: auto;
     min-height: 122px;
-    font-size: 3.2em;
+    font-size: 3.5em;
     font-weight: 700;
     text-transform: lowercase;
-    line-height: .8em;
+    line-height: 2.6em;
     background-color: transparent;
     margin-bottom: 30px;
     border: 2px solid white;
@@ -98,7 +98,7 @@ h2.subtitle-grupo {
 }
 
 .dimension {
-    font-size: .6em;
+    font-size: 1.8em;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -175,6 +175,91 @@ h2.subtitle-grupo {
             display: none;
         }
     }
+}
+
+.dato-relevante {
+    background-image: url(../images/DR1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 5% !important;
+}
+
+.title-datoDes {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.dato-secundario {
+    height: auto;
+    padding: 5% !important;
+    margin-bottom: 10px;
+}
+
+.icon-Sec {
+    font-size: 2em;
+}
+
+.title-datoSec {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.text-datoSec {
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.datoRela {
+    height: auto;
+    padding: 10% !important;
+}
+
+.text-datoRela {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.asuntos-title {
+    background-image: url(../images/asuntos.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 5% !important;
+}
+
+.btn-descarga-asunto {
+    width: 100%;
+    height: auto;
+    min-height: 116px;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 1em;
+    background-color: #a0bf38;
+}
+
+.text-asunto {
+    padding: 0 4% !important;
+}
+
+.title-datoAsun {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.title-datoSec-Asun {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.text-datoSec-Asun {
+    font-size: .9em;
+    font-weight: 300;
 }
 
 
