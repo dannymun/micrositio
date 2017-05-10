@@ -53,7 +53,8 @@ h2.subtitle-grupo {
   font-size: 1.5em; }
 
 .text-content-grupo {
-  font-weight: 400; }
+  font-weight: 400;
+  padding: 0 5px; }
 
 .btn-descarga {
   width: 70%;
@@ -168,7 +169,7 @@ h2.subtitle-grupo {
   font-weight: 700; }
 
 .text-datoSec {
-  font-size: .8em;
+  font-size: 1em;
   font-weight: 300; }
 
 /*footer*/
@@ -208,3 +209,6 @@ h2.subtitle-grupo {
   .copyrights a {
     color: grey;
     text-decoration: none; }
+
+.line-link {
+  line-height: 1.5em !important; }

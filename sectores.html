@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Sector y Asobancaria</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,12 +13,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/asuntos.css">
     <link rel="stylesheet" href="./assets/css/animated.css">
+
 </head>
 
 <body>
     <div class="wrapper">
+        <!--header-->
         <div class="wrapper-main grey lighten-5 z-depth-2">
             <div class="container">
                 <div class="row">
@@ -96,60 +98,75 @@
         <section id="main-container">
             <div class="container">
                 <div class="row">
-                    <!--columna de introduccion-->
-                    <div class="main-text col l6 s12">
-                        <h1 class="title white-text">SOSTENIBILIDAD</h1>
-                        <h2 class="subtitle white-text">Asobancaria</h2>
-                        <hr>
-                        <p class="text-content white-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-                            nisl ut aliquip ex ea commodo consequat. </p>
+                    <!--columna de destacado-->
+                    <div class="main-text col l3 s12 animated slideInLeft hide-on-med-and-down">
+                        <div class="amber darken-1 center-align datoRela">
+                            <i class="fa fa-file-text-o white-text icon-Sec" aria-hidden="true"></i>
+                            <h2 class="title-datoSec white-text">Proyecciones <br>de cartera</h2>
+                            <p class="text-datoRela white-text">En suma, sobre el comportamiento de la cartera, los cálculos y estimaciones de Asobancaria indican que esta variable podría crecer alrededor de 7.5% real durante 2017, una cifra que implicaría un mayor dinamismo frente a lo
+                                ocurrido en 2016. </p>
+                        </div>
                         <div class="center-align">
-                            <button data-target="modal1" class="waves-effect waves-light btn-large btn-descarga modal-trigger">Descargar Informe</button>
+                            <button data-target="modal1" class="waves-effect waves-light btn-large btn-descarga-asunto modal-trigger">Descargar Informe</button>
+                        </div>
+                    </div>
+                    <!--formulario-->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <h4>Sobre el Sector y Asobancaria</h4>
+                            <p></p>
+                            <form action="">
+                                <label for="">Nombre*</label>
+                                <input type="text">
+                                <label for="">eMail*</label>
+                                <input type="text">
+                                <label for="">Teléfono*</label>
+                                <input type="text">
+                                <input type="submit" value="Descargar">
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                        </div>
+                    </div>
+                    <!---->
+                    <!--columna de datos relevantes-->
+                    <div class="intro-content-asuntos col l9 s12">
+                        <div class="row">
+                            <div class="col s12 asuntos-title">
+                                <p class="text-datoAsun white-text">Informe de sostenibilidad </p>
+                                <h2 class="title-datoAsun white-text">Sector y <br>Asobancaria</h2>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="col s12 m8 l8 white text-asunto">
+                                <!--<h2 class="title-datoSec-Asun grey-text text-darken-4">Dato<br>relevante 1</h2>-->
+                                <p class="text-datoSec-Asun grey-text text-darken-4">Como resulta natural en un periodo de desaceleración económica, durante 2016 la cartera crediticia del sistema bancario presentó una moderación. De esta manera, según cifras reportadas por la Superintendencia Financiera
+                                    de Colombia (en adelante, SFC), en octubre (el último mes del cual se dispone de información oficial), la cartera creció 6,3% en términos reales, lo que representa una moderación de cinco puntos porcentuales frente
+                                    a octubre de 2015. Es importante resaltar, sin embargo, que esta cifra no resulta del todo comparable con la información anterior, pues incluye el efecto de la integración del negocio de leasing dentro de la actividad
+                                    bancaria por parte de una entidad del sistema. De hecho, sin incluir dicho ajuste, la cartera habría registrado una desaceleración aún mayor, con un crecimiento cercano al 2,3% real. </p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="col s12 m4 l4 blue dato-secundario center-align animated slideInRight">
+                                <i class="fa fa-file-text-o white-text icon-Sec" aria-hidden="true"></i>
+                                <h2 class="title-datoSec white-text">Dato<br>relevante</h2>
+                                <p class="text-datoSec white-text">Durante el 2016 se trabajó coordinadamente con la Delegatura para Riesgo de Lavado de Activos y la Dirección de Investigación y Desarrollo </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--destacado-responsive-->
+                    <div class="main-text col l3 s12 hide-on-large-only animated slideInLeft">
+                        <div class="amber darken-1 center-align datoRela">
+                            <i class="fa fa-file-text-o white-text icon-Sec" aria-hidden="true"></i>
+                            <h2 class="title-datoSec white-text">Proyecciones <br>de cartera</h2>
+                            <p class="text-datoRela white-text"> En suma, sobre el comportamiento de la cartera, los cálculos y estimaciones de Asobancaria indican que esta variable podría crecer alrededor de 7.5% real durante 2017, una cifra que implicaría un mayor dinamismo frente a lo
+                                ocurrido en 2016. </p>
+                        </div>
+                        <div class="center-align">
+                            <button data-target="modal1" class="waves-effect waves-light btn-large btn-descarga-asunto modal-trigger">Descargar Informe</button>
                             <!--formulario-->
                             <div id="modal1" class="modal">
                                 <div class="modal-content">
                                     <h4>Modal Header</h4>
-                                    <p>A bunch of text</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
-                                </div>
-                            </div>
-                            <!---->
-                        </div>
-                    </div>
-                    <!--columna de dimensiones-->
-                    <div class="btn-ppal col l6 s12">
-                        <div class="center-align">
-                            <button data-target="modal2" class="waves-effect btn-large btn-dimension modal-trigger"><span class="dimension">DIMENSIÓN</span> Social</button>
-                            <button data-target="modal3" class="waves-effect btn-large btn-dimension modal-trigger"><span class="dimension">DIMENSIÓN</span> Ambiental</button>
-                            <button data-target="modal4" class="waves-effect btn-large btn-dimension modal-trigger"><span class="dimension">DIMENSIÓN</span> Económica</button>
-                            <!--formulario2-->
-                            <div id="modal2" class="modal">
-                                <div class="modal-content">
-                                    <h4>Modal Header dimension 1</h4>
-                                    <p>A bunch of text</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
-                                </div>
-                            </div>
-                            <!---->
-                            <!--formulario2-->
-                            <div id="modal3" class="modal">
-                                <div class="modal-content">
-                                    <h4>Modal Header dimension 2</h4>
-                                    <p>A bunch of text</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
-                                </div>
-                            </div>
-                            <!---->
-                            <!--formulario3-->
-                            <div id="modal4" class="modal">
-                                <div class="modal-content">
-                                    <h4>Modal Header dimension 3</h4>
                                     <p>A bunch of text</p>
                                 </div>
                                 <div class="modal-footer">

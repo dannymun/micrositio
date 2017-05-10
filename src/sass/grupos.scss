@@ -69,6 +69,7 @@ h2.subtitle-grupo {
 
 .text-content-grupo {
     font-weight: 400;
+    padding: 0 5px;
 }
 
 .btn-descarga {
@@ -208,7 +209,7 @@ h2.subtitle-grupo {
 }
 
 .text-datoSec {
-    font-size: .8em;
+    font-size: 1em;
     font-weight: 300;
 }
 
@@ -261,4 +262,8 @@ h2.subtitle-grupo {
         color: grey;
         text-decoration: none;
     }
+}
+
+.line-link {
+    line-height: 1.5em !important;
 }

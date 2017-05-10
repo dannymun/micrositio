@@ -250,3 +250,6 @@ h2.subtitle-grupo {
   .copyrights a {
     color: grey;
     text-decoration: none; }
+
+.line-link {
+  line-height: 1.5em !important; }
