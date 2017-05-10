@@ -1,0 +1,252 @@
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: white;
+  background-size: cover; }
+
+.menu-items {
+  display: flex;
+  justify-content: space-around; }
+
+.menu-items-list {
+  font-size: 1.2em; }
+
+.content-wrapper {
+  display: flex;
+  justify-content: center; }
+
+#main-container {
+  margin: 0 auto; }
+
+.main-text {
+  margin-bottom: 30px; }
+
+.title {
+  font-weight: 700;
+  font-size: 3.5em; }
+
+.title,
+.subtitle {
+  margin: 0; }
+
+h2.subtitle {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2em; }
+
+p {
+  font-weight: 400; }
+
+/*grupo*/
+.title-grupo {
+  font-weight: 700;
+  font-size: 3em; }
+
+.title-grupo,
+.subtitle-grupo {
+  margin: 0; }
+
+h2.subtitle-grupo {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5em; }
+
+.text-content-grupo {
+  font-weight: 400; }
+
+.btn-descarga {
+  width: 70%;
+  height: auto;
+  min-height: 116px;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-transform: lowercase;
+  line-height: 2.6em;
+  background-color: #a0bf38;
+  margin-top: 30px; }
+
+.btn-dimension {
+  width: 85%;
+  height: auto;
+  min-height: 122px;
+  font-size: 3.5em;
+  font-weight: 700;
+  text-transform: lowercase;
+  line-height: 2.6em;
+  background-color: transparent;
+  margin-bottom: 30px;
+  border: 2px solid white;
+  border-radius: 20px; }
+
+.dimension {
+  font-size: 1.8em;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.btn-dimension:hover,
+.btn-dimension:active,
+.btn-dimension:focus {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+#modal {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -200vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+  z-index: 2; }
+
+.modal-video {
+  width: 80%;
+  margin: 0 auto; }
+
+[type="radio"]:not(:checked) + label:before,
+[type="radio"]:not(:checked) + label:after {
+  border: 0px solid #5a5a5a; }
+
+#mostrar-modal {
+  display: none; }
+  #mostrar-modal + label {
+    font-size: 1.2em;
+    color: #212121;
+    cursor: pointer; }
+  #mostrar-modal:checked ~ #modal {
+    top: 0; }
+  #mostrar-modal:checked ~ #cerrar-modal + label {
+    display: block; }
+
+#cerrar-modal {
+  display: none; }
+  #cerrar-modal + label {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    transition: all .5s; }
+  #cerrar-modal:checked ~ #modal {
+    top: -200vh; }
+  #cerrar-modal:checked + label {
+    display: none; }
+
+.dato-relevante {
+  background-image: url(../images/DR1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  height: auto;
+  padding: 5% !important; }
+
+.title-datoDes {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0; }
+
+.dato-secundario {
+  height: auto;
+  padding: 5% !important;
+  margin-bottom: 10px; }
+
+.icon-Sec {
+  font-size: 2em; }
+
+.title-datoSec {
+  font-size: 1.5em;
+  font-weight: 700; }
+
+.text-datoSec {
+  font-size: .8em;
+  font-weight: 300; }
+
+.datoRela {
+  height: auto;
+  padding: 10% !important; }
+
+.text-datoRela {
+  font-size: 1em;
+  font-weight: 300; }
+
+.asuntos-title {
+  background-image: url(../images/asuntos.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  height: auto;
+  padding: 5% !important; }
+
+.btn-descarga-asunto {
+  width: 100%;
+  height: auto;
+  min-height: 116px;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: lowercase;
+  line-height: 1em;
+  background-color: #a0bf38; }
+
+.text-asunto {
+  padding: 0 4% !important; }
+
+.title-datoAsun {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 0; }
+
+.title-datoSec-Asun {
+  font-size: 1.5em;
+  font-weight: 700; }
+
+.text-datoSec-Asun {
+  font-size: .9em;
+  font-weight: 300; }
+
+/*footer*/
+.footer-content-items {
+  margin: 20px 0 !important; }
+
+.footer-content {
+  background-color: #203958;
+  min-height: 350px; }
+
+.semana {
+  color: white;
+  padding: 0 20px !important; }
+  .semana a {
+    color: white;
+    font-size: 0.8em; }
+
+.semana-title {
+  font-size: 1.2em; }
+
+.lp-post-info {
+  font-size: .8em;
+  color: grey; }
+
+.publi {
+  color: white;
+  font-size: 0.8em;
+  text-decoration: none; }
+
+.section-boxed {
+  min-height: 100px; }
+
+.copyrights {
+  font-size: .7em;
+  line-height: .2em;
+  text-transform: uppercase; }
+  .copyrights a {
+    color: grey;
+    text-decoration: none; }
